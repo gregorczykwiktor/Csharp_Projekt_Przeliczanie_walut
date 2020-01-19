@@ -1,0 +1,12 @@
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\bin\Debug\kantor.exe.config
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\bin\Debug\kantor.exe
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\bin\Debug\kantor.pdb
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.Form1.resources
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.Properties.Resources.resources
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.csproj.GenerateResource.cache
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.exe
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.pdb
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sebastian\Desktop\projekt_wiktor\kantor\obj\Debug\kantor.csproj.CopyComplete
