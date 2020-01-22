@@ -9,6 +9,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using kantor;
 using Kantor.API;
 
 namespace Kantor
@@ -34,14 +35,25 @@ namespace Kantor
             GetData("CHF");
             GetData("GBP");
             GetData("JPY");
-
         }
         public void GetData(string curr)
         {
             
             string[] data = new string[4];
             ListViewItem dataitm;
-            data[0] = curr;
+            var currItm = new Currency1(curr);
+            try
+            {
+                var test = new CurrencyService();
+                test.Validate(currItm);
+            }
+            catch
+            {
+                MessageBox.Show($"Data Error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            data[0] = currItm.Sname;
             WebRequest request = HttpWebRequest.Create("http://api.nbp.pl/api/exchangerates/rates/c/" + curr + "/last/2/?format=json");
             WebResponse response = request.GetResponse();
             StreamReader reader = new StreamReader(response.GetResponseStream());
